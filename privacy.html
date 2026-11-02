@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How the personal Fedora Rclone Sync setup accesses, uses, stores and protects Google Drive data.">
+<meta name="color-scheme" content="light dark">
+<title>Privacy policy · Fedora Rclone Sync</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="brand" href="index.html">Fedora Rclone Sync</a><nav aria-label="Main navigation"><a href="index.html">Home</a></nav></header>
+<main id="main">
+<p class="eyebrow">Fedora Rclone Sync</p>
+<h1>Privacy policy</h1>
+<p class="lead">This policy describes the owner's personal rclone configuration for local-first Google Drive synchronization. It covers authorized use of the setup, including synchronization when enabled by the owner.</p>
+<p class="small">Last updated: November 2, 2026</p>
+<section><h2>Data accessed and purpose</h2>
+<p>With the owner's Google authorization, rclone accesses Google Drive file and folder names, identifiers, directory structure, file contents, sizes, timestamps, checksums and other metadata needed to discover folders, verify transfers and synchronize selected files.</p>
+<p>Read/write Drive access is requested to work with files that already exist in the owner's account. The permission is broader than the selected synchronization folders. Local configuration determines the folders used. The setup is for personal file synchronization, integrity checks, conflict preservation and backups.</p></section>
+<section><h2>Processing and storage</h2>
+<p>Rclone runs locally and exchanges data directly with Google's services. Selected files, local backups, synchronization state and operational logs are stored on the owner's computers or storage they explicitly select. Synced cloud copies and any configured cloud backup versions remain in the owner's Google Drive account.</p>
+<p>OAuth client credentials, access tokens and refresh tokens are stored in protected local configuration files outside the synchronized vaults and this website. They are not published with the website. Operational logs may contain file names, paths and error information; authorization tokens and secrets must not be included in those logs.</p></section>
+<section><h2>Sharing and use of Google data</h2>
+<p>The configuration does not sell Google user data, use it for advertising, send it to an AI model for training, or provide it to a separate application backend. Data is transferred to Google's services as required for the owner's requested synchronization. Any additional destination or sharing would require a separate decision by the owner and an updated disclosure.</p>
+<p>Fedora Rclone Sync's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p></section>
+<section><h2>Retention and deletion</h2>
+<p>Local and cloud file copies are retained until the owner removes them through their file-management or synchronization workflow. Backups and preserved conflict versions are retained until the owner deliberately removes them; deleting a working file may leave copies in backups or Google Drive Trash. Removing authorization does not automatically erase existing file copies or backups.</p>
+<p>To remove locally stored credentials, the owner can remove the relevant rclone remote or its protected token configuration. Copies on other devices and any credential backups must be handled separately.</p></section>
+<section><h2>Control and revocation</h2>
+<p>The owner chooses which folders to synchronize and may stop local synchronization jobs at any time. Google account access can be revoked through <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revocation prevents future authorized requests, but does not remove files already stored.</p></section>
+<section><h2>This website</h2>
+<p>This site publishes informational HTML and CSS only. It does not ask for Google credentials, receive Drive data, set application cookies, or run analytics. GitHub Pages, the website host, may process visitor connection information such as IP addresses and request logs under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p></section>
+<section><h2>Contact and policy changes</h2>
+<p>For questions about this personal setup or its data practices, use the support email displayed on the Google authorization screen. This policy will be updated if the configuration's data practices change.</p></section>
+<p><a class="policy" href="index.html"><span aria-hidden="true">←</span> Back to Fedora Rclone Sync</a></p>
+</main>
+<footer><span>Fedora Rclone Sync</span><a href="index.html">Home</a></footer>
+</body>
+</html>

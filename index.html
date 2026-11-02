@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Fedora Rclone Sync is a personal, local-first Google Drive synchronization setup for Obsidian files on the owner's computers.">
+<meta name="color-scheme" content="light dark">
+<title>Fedora Rclone Sync</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="brand" href="index.html">Fedora Rclone Sync</a><nav aria-label="Main navigation"><a href="privacy.html">Privacy policy</a></nav></header>
+<main id="main">
+<p class="eyebrow">Personal use · Local-first files</p>
+<h1>Your notes, on your computers.</h1>
+<p class="lead">Fedora Rclone Sync is a personal configuration of rclone for synchronizing selected Obsidian folders between the owner's Fedora computers and their Google Drive account.</p>
+<section aria-labelledby="purpose"><h2 id="purpose">What this setup is for</h2>
+<p>The intended workflow keeps complete local copies of selected folders so notes can be edited offline. Reviewed synchronization jobs exchange changes with Google Drive, while independent local backups help preserve earlier versions.</p>
+<p>This is the owner's personal setup. It is not a public file service and does not offer account registration or a sign-in form on this website.</p></section>
+<section aria-labelledby="access"><h2 id="access">Why Google Drive access is requested</h2>
+<p>Access is used to list folders, read and download files, and, when synchronization is explicitly enabled by the owner, upload, update, rename or delete files in the selected folders.</p>
+<p>The Google Drive permission requested by rclone allows access across the account's Drive files, excluding Google's Application Data Folder. The selection of folders is enforced by the local synchronization configuration; the Google permission itself is broader.</p></section>
+<section aria-labelledby="where"><h2 id="where">Where your data goes</h2>
+<p>The rclone program runs on the owner's computers and communicates directly with Google. This informational website does not receive Drive files, OAuth credentials or authorization tokens. It contains no embedded Google login, analytics scripts or file-upload form.</p>
+<p><a class="policy" href="privacy.html">Read the privacy policy <span aria-hidden="true">→</span></a></p></section>
+<section aria-labelledby="support"><h2 id="support">Support and privacy questions</h2>
+<p>Use the developer's support email shown on the Google authorization screen. This configuration is intended only for the owner's own accounts and devices.</p>
+<p class="small">Independent personal configuration. Not affiliated with or endorsed by Google, Fedora, Obsidian or the rclone project.</p></section>
+</main>
+<footer><span>Fedora Rclone Sync</span><a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>

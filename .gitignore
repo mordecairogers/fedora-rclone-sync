@@ -1,0 +1,8 @@
+# Publish only the reviewed informational website assets.
+*
+!.gitignore
+!.nojekyll
+!README.md
+!index.html
+!privacy.html
+!style.css
